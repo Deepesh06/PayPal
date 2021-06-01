@@ -1,0 +1,27 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+nav ul li a {
+    padding: 6px 18px;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 27px;
+    display: inline-block;
+    flex: auto;
+    margin-left: 9px;
+}
+
+.login{
+    background:transparen;
+    border: 1px solid white;
+}
+.signup{
+    background:white;
+    border: 1px solid white;
+    color: #111111 !important;
+}

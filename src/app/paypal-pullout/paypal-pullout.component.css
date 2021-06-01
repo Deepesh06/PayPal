@@ -1,0 +1,119 @@
+.pullout.custom-pullout {
+    background-color: #00A8EA;
+}
+.pullout {
+    padding: 60px 0;
+}
+.theme-background-color-white {
+    background-color: #fff;
+}
+.container {
+    max-width: 1192px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.text-xs-center {
+    text-align: center!important;
+}
+.col-xs-12, .col-lg-10 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.pullout.custom-pullout .pullout__headline {
+    font-size: 1.550srem;
+}
+.pullout.custom-pullout .pullout__paragraph, .pullout.custom-pullout .pullout__headline {
+    color: #fff;
+}
+.h2.pypl-heading, h2, h2.pypl-heading {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+}
+b, strong {
+    font-weight: bolder;
+}
+.pullout.custom-pullout .pypl-btn {
+    color: #0d3685;
+    background: #fff;
+}
+.pullout__btn--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.pullout__btn, .pullout__media-btn {
+    margin-top: 30px;
+}
+.pypl-btn {
+    position: relative;
+    max-width: 320px;
+    padding: 13px 24px;
+    margin-bottom: 0;
+    background: #0070ba;
+    font-size: 15px;
+    font-size: .9375rem;
+    font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+.clock {
+    height: 20vh;
+    color: black;
+    background-color: #00A8EA;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    margin-top: -35px;
+}
+.clock>div {
+    display: flex;
+    justify-content: center;
+}
+.number {
+    background: #ffffff;
+    font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+    font-weight: 549;
+    border-radius: 13px;
+    margin-right: 5px;
+    width: 62px;
+    height: 50px;
+    font-size: 2.57142857rem;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.number .move {
+    display: block;
+    animation: move .99s linear infinite;
+}
+.col-lg-10 {
+    width: 83.33333%;
+}

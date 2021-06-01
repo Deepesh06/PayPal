@@ -1,0 +1,57 @@
+#sliderblock {
+    background: url("../../assets/hero-banner.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover ;
+   margin-top: -70px;
+    width: 100;
+}
+
+#sliderblock article {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    color: rgb(255 255 255);
+    margin: 0px 224px;
+}
+
+#sliderblock article div {
+display: flex;
+flex-direction: column;
+height: 680px;
+justify-content: center;
+}
+#sliderblock article  div h1{
+font-weight: 400;
+text-transform: uppercase;
+font-size: 3rem;
+line-height: 1;
+letter-spacing: 2px;
+font-family: fantasy;
+font-style: italic;
+}
+#sliderblock article div > p{
+font-size: 17px;
+padding: 20px 0px;
+}
+
+#sliderblock article div button{
+padding: 16px 40px;
+border-radius: 50px;
+width: 300px;
+display: block;
+font-size: 15px;
+background: rgb(0 112 186);
+color: rgb(255 255 255);
+border: none;
+}
+
+#sliderblock article div a{
+    color:#fff;
+}
+#sliderblock article div strong{
+    color:#fff;
+}

@@ -1,0 +1,26 @@
+#contentblock {
+    background: #ffffff;
+    height: 400px;
+    width:100%;
+    padding: 20px;
+}
+
+#section {
+    height: 150px;
+}
+
+.paypalNotificationBlock {
+    margin-top: -33px;
+    margin-bottom: -100px;
+  background-repeat: no-repeat;
+    width: 100%;
+   }
+   ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

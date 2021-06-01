@@ -1,0 +1,14 @@
+div {
+    border-style: none;
+   
+
+}
+div img{
+    display: block;
+    height: 400px;
+    margin: 137px auto;
+    max-height: 100%;
+    width: auto;
+   opacity: 1;
+    transition: opacity .25s ease-in-out;
+}

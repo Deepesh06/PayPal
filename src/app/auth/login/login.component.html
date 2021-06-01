@@ -1,0 +1,69 @@
+<section>
+    <article>
+        <div>
+            <h2>Login</h2>
+            <form class="form-check-inline" 
+            #form="ngForm" 
+            (ngSubmit)="submit(form)" novalidate
+             >
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input
+                     type="text" 
+                     name="username" 
+                     id="username" 
+                     placeholder="Enter Username" 
+                     ngModel
+                     #username="ngModel" (change)="GetUserName(username)"
+                     ngModel
+                     required
+                     minlength="3"
+                     maxlength="10"
+                     
+                   >
+                   <div class="error" *ngIf="username.invalid && username.touched">
+                       <p *ngIf="username.errors.required">Username is required </p>
+                       <p *ngIf="username.errors.minlength">username should be 3 characters</p>
+                       <p *ngIf="username.errors.maxlength">username should not more than 10 characters</p>
+                       <p *ngif="username.errors.pattern">username should be 1 lowercase and uppercase</p>
+                   </div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                     type="password" 
+                     name="password" 
+                     id="password" 
+                     placeholder="Enter Password"
+                     #password="ngModel"
+                     ngModel
+                     required  
+                     minlength="3"
+                     maxlength="10"
+                    >
+                    <div class="error" *ngIf="password.invalid && password.touched">
+                        <p *ngIf="password.errors.required">Password is required </p>
+                        <p *ngIf="password.errors.minlength">Password should be 3 characters</p>
+                        <p *ngIf="password.errors.maxlength">Password should not more than 10 characters</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country">Select Country</label>
+                    <select name="country" id="country" ngModel  >
+                        <option *ngFor="let country of countryList" [value]="country.code">{{country.name}}</option>
+                    </select>
+                   
+                </div>
+                <div class="form-group1">
+    <div *ngFor="let gender of selectGender">
+        <label for="gender"> <input type="radio" name="gender" id="gender" [value]="gender">{{gender}} </label>
+     
+    </div>
+ </div>
+                <div class="form-group">
+                    <button class="btn-btn-primary" [disabled]="! form.valid">Login</button>
+                </div>
+            </form>
+        </div>
+    </article>
+</section>

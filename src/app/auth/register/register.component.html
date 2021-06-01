@@ -1,0 +1,49 @@
+<section id="registerForm">
+    <article>
+        <h2>Register
+        </h2>
+        <form [formGroup]="form">
+            <div class="form-group">
+             <label for="username">Username</label>
+             <input formControlName="username"
+              type="text" placeholder="Enter Username" class="form-control"
+                     ngModel
+                     required
+                     minlength="6"
+                     >
+              <div class="errors" *ngIf="username.touched && username.invalid">
+                <p>Username is required</p>
+                <p>username should be minimum 6 characters</p>
+                <p>Please Don't give white spaces between words</p>
+                <p> Username is already taken please give another username</p>
+                     </div>
+            </div>
+            <div class="form-group">
+<label for="password">Password</label>
+<input formControlName="password" 
+type="password" placeholder="Enter Password" class="form-control">
+<div class="errors" *ngIf="password.touched && password.invalid">
+    <p>password is reqiured</p>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input formControlName="email"
+                 type="email" placeholder="Enter Email" class="form-control">
+                 <div class="errors" *ngIf="email.touched && email.invalid">
+                    <p>email is reqiured</p>
+                            </div>
+                </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input formControlName="phone"
+                 type="text" placeholder="Enter Phone Number" class="form-control">
+                 <div class="errors" *ngIf="phone.touched && phone.invalid">
+                    <p *ngIf="phone.errors.required">phone is reqiured</p></div>
+                            </div>
+            <div>
+<a routerLink="/successfullyRegistered" class="div-link login">SignUp</a>
+            </div>
+        </form>
+    </article>
+</section>

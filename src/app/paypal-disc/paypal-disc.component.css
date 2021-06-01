@@ -1,0 +1,252 @@
+.property-disclosure {
+    padding-bottom: 0;
+}
+.theme-background-color-white {
+    background-color: white;
+}
+.disclosure {
+    padding: 40px 0;
+}
+section {
+    display: block;
+}
+.container {
+    max-width: 1192;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div {
+    display: block;
+}
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.disclosure p {
+    font-size: .8125rem;
+    line-height: 1.38461538;
+
+}
+.social-section {
+    padding: 0;
+}
+.text-xs-center {
+    text-align: center !important;
+}
+.social-section .col-md-offset-1 {
+    margin-left: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.social-section .statement__paragraph {
+    text-align: right;
+    font-size: .8rem;
+    font-size: .85714286rem;
+    font-size: 12px;
+    font-size: .75rem;
+}
+.statement__paragraph {
+    padding-top: 20px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.pp-sans-big-light {
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.main-span {
+    padding: 20px;
+}
+.main-span a {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+    a {
+        color: #0070ba;
+        background-color: transparent;
+        text-decoration: none;
+        font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+        font-weight: 700;
+    }
+    .social-section .fbspan .twspan .ytspan .instaspan {
+        background-position: -16px 0;
+    }
+
+    .social-section .fbspan, .social-section .twspan, .social-section .ytspan, .social-section .instaspan{
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url(../../assets/social-sprite.webp);
+    
+    }
+    .social-section .fbspan {
+        background-position: -70px 0;
+    }
+    .social-section .twspan {
+        background-position: -232px 0;
+    }
+    .social-section .ytspan {
+        background-position: -340px 0;
+    }
+    .social-section .instaspan {
+        background-position: -124px 0;
+    }
+
+    .global-footer {
+        padding: 60px 0;
+        box-sizing: border-box;
+    }
+    footer {
+        display: block;
+    }
+    .global-footer .container {
+        max-width: 1192px;
+        padding-left: 48px;
+        padding-right: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .global-footer .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .global-footer .col-md-12 {
+        text-align: left;
+        float: left;
+        width: 100%;
+        position: relative;
+        min-height:1px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .global-footer .footer-main {
+        font-size: -0.0625rem;
+    }
+    .global-footer .footer-main, .global-footer .footer-secondary, .global-footer .footer-tertiary {
+        line-height: 1.6;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .global-footer .footer-main li:last-child, .global-footer .footer-secondary li:last-child, .global-footer .footer-tertiary li:last-child {
+        margin-right: 0;
+    }
+    .global-footer .footer-main .country-selector {
+        margin: 6px 19px 9px 0px;
+    }
+    .global-footer .country-selector {
+        float: right;
+    }
+    .global-footer li {
+        display: inline-block;
+    }
+    .global-footer .footer-main a {
+        color: #2c2e2f;
+    }
+    .country-selector .IN, .country-selector .india {
+        background-position: 5px -3674px;
+    }
+    .country-selector .country {
+        display: inline-block;
+        overflow: hidden;
+        width: 32px;
+        height: 26px;
+        padding: 2px;
+        margin: 0;
+        vertical-align: middle;
+        text-indent: 999em;
+        text-align: left;
+        background-color: transparent;
+        background-repeat: no-repeat;
+    }
+
+    .global-footer a {
+        background-color: transparent;
+        text-decoration: none;
+        font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+        font-weight: 700;
+    }
+    .global-footer .footer-main li, .global-footer .footer-secondary li, .global-footer .footer-tertiary li {
+        margin: 6px 18px 2px 0;
+    }
+    .global-footer li {
+        display: inline-block;
+    }
+    .global-footer hr {
+        background-image: linear-gradient(to right,#cbd2d6 50%,rgba(255,255,255,0) 40%);
+        background-position: top;
+        background-size: 3px 1px;
+        background-repeat: repeat-x;
+        height: 1px;
+        border-top: 0;
+        border-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .global-footer .footer-corplinks {
+        float: left;
+    }
+    .global-footer .footer-secondary, .global-footer .footer-secondary a, .global-footer .footer-tertiary, .global-footer .footer-tertiary a {
+       
+        font-size:-0.8125rem;
+        color: #6c7378;
+        padding-top: 10px;
+    }
+    .global-footer .footer-secondary a, .global-footer .footer-secondary a a, .global-footer .footer-tertiary a, .global-footer .footer-tertiary a a {
+        color: #6c7378;
+    }
+    .global-footer .copyright-section {
+        float: right;
+    }
+    .global-footer .footer-notes {
+        padding-top: 10px;
+    }
+    .global-footer .footer-notes {
+        
+        font-size: -0.8125rem;
+        color: #6c7378;
+        line-height: 1.6;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin: 0;
+    }
